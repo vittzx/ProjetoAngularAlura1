@@ -1,1 +1,12 @@
-<p>excluir-pensamento works!</p>
+<section class="container excluir-pensamentos ff-inter">
+    <div class="modal">
+        <p> O pensamento será deletado.  <br> Deseja excluir mesmo?</p>
+        <div class="acoes">
+            <button class="botao botao-excluir" (click)="excluirPensamento()" routerLink="/pensamentos/excluir-pensamento/{{ pensamento.id }}"> Sim </button>
+            <button class="botao botao-cancelar" (click)="cancelarExcluirPensamento()"> Não </button>
+        </div>
+    </div>
+    <div class="overlay">
+
+    </div>
+</section>
