@@ -2,14 +2,20 @@
   "pensamentos": [
     {
       "id": 4,
-      "content": "Learning Angular",
-      "autorship": "Vitor Cosso",
-      "model": "modelo2"
+      "content": "a[odjksadjaskjdas",
+      "autorship": "adljkgsadjhsagd",
+      "model": "modelo1"
     },
     {
       "id": 5,
       "content": "IKOAJHSDKJHAJKDhsa",
       "autorship": "Vitor Cosso",
+      "model": "modelo3"
+    },
+    {
+      "id": 6,
+      "content": "sucesso eh o segredo",
+      "autorship": " filosofo",
       "model": "modelo3"
     }
   ]
