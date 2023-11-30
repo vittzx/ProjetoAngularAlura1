@@ -25,4 +25,5 @@ export class PensamentoComponent {
     }
     return 'pensamento-p'
   }
+  
 }

@@ -7,14 +7,17 @@ import { CriarPensamentoComponent } from "./componentes/pesamentos/criar-pensame
 import { FormsModule } from '@angular/forms';
 import { ListarPensamentoComponent } from "./componentes/pesamentos/listar-pensamento/listar-pensamento.component";
 import { routes } from './app.routes';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet,RouterLink,CabecalhoComponent, RodapeComponent, CriarPensamentoComponent, FormsModule, ListarPensamentoComponent],
+    imports: [CommonModule, RouterOutlet,RouterLink,CabecalhoComponent, RodapeComponent, CriarPensamentoComponent, FormsModule, ListarPensamentoComponent, HttpClientModule],
 })
+
+
 export class AppComponent {
   title = 'my-angular-app';
 }
